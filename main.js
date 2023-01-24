@@ -35,7 +35,7 @@ function check()
 
 
 // A function to run when we get any error and the results
-function gotResult(error, result) {
+function gotResult(error, results) {
   // Display error in the console
   if (error) {
     console.error(error);
